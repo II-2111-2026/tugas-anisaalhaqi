@@ -9,7 +9,7 @@ Format jawaban:
 - MC     -> str   ("A"/"B"/"C"/"D")
 - Numeric-> int/float (desimal pakai '.')
 """
-from __future__ annotations
+from __future__ import annotations
 def q01() -> bool:
     """[T/F] Jika korelasi antara dua variabel adalah nol, maka kedua variabel tersebut pasti
 independen."""
